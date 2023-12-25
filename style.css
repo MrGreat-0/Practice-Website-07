@@ -1,0 +1,259 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+
+    height: 100%;
+    width: 100%;
+    background: #d0d4d5;
+    position: relative;
+
+}
+
+#nav {
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 0 5vw;
+
+}
+
+#nav img {
+
+    height: 35px;
+    margin-right: 150px;
+
+}
+
+#nav-prt0 {
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#nav-prt0 h4 {
+
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+#nav-prt1 {
+
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nav-prt1 i {
+
+    font-size: 23px;
+    font-weight: 400;
+
+}
+
+#content {
+
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    position: relative;
+
+}
+
+#left {
+
+    width: 35%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 8vw 5vw;
+
+}
+
+#left h5 {
+
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #535353;
+
+}
+
+#left h1 {
+
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#left p {
+
+    width: 90%;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.4;
+
+}
+
+#left button {
+
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    margin-top: 50px;
+    padding: 15px 40px;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+
+
+}
+
+#right {
+
+    width: 65%;
+    height: 100%;
+    /* background-color: blue; */
+    position: relative;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    padding: 65px 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+
+}
+
+#right::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+.elem {
+
+    height: 440px;
+    width: 290px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 17px;
+
+}
+
+.elem img {
+
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+
+}
+
+.elem h5 {
+
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    bottom: 9%;
+    right: 0;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 7px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.elem h4 {
+
+    background-color: #d0d4d5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+
+}
+
+/* --pic problem-- */
+.elem0 {
+
+    height: 440px;
+    width: 290px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 17px;
+
+}
+
+.elem0 img {
+
+    width: 100%;
+    background-size: contain;
+    position: absolute;
+    top: 30%;
+
+}
+
+.elem0 h5 {
+
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    bottom: 9%;
+    right: 0;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 7px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.elem0 h4 {
+
+    background-color: #d0d4d5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+
+}
+
+/* ^--pic problem--^ */
